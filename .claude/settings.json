@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.venv/bin/python uz_dataset/generate_uz_eou_dataset.py)",
+      "Bash(.venv/bin/python -)",
+      "Bash(.venv/bin/python uz_dataset/eval_baseline.py uz_dataset/uz_eou_smoke_test.jsonl uz_dataset/uz_eou_val.jsonl)",
+      "Bash(.venv/bin/python uz_dataset/generate_uz_eou_dataset.py --n-total 10000)",
+      "Bash(.venv/bin/python uz_dataset/eval_baseline.py uz_dataset/uz_eou_val.jsonl)",
+      "Bash(.venv/bin/python uz_dataset/generate_uz_eou_dataset.py --n-total 12000)",
+      "Bash(.venv/bin/python uz_dataset/generate_uz_eou_dataset.py --n-total 13000)",
+      "Bash(.venv/bin/python uz_dataset/generate_uz_eou_dataset.py --n-total 14000)",
+      "Bash(.venv/bin/python uz_number_gate.py)",
+      "Bash(.venv/bin/jupyter nbconvert *)",
+      "Bash(.venv/bin/jupyter --version)",
+      "Bash(.venv/bin/python -c \"import nbconvert, ipykernel; print\\('nbconvert', nbconvert.__version__\\)\")",
+      "Bash(.venv/bin/python -c \"import nbclient, nbformat; print\\('nbclient', nbclient.__version__\\)\")",
+      "Bash(.venv/bin/python -c \"import sys; sys.path.insert\\(0,'/Users/rakhmonberdiev/Research/TurnDetecting'\\); print\\([p for p in sys.path]\\); import uz_number_gate; print\\('OK', uz_number_gate.__file__\\)\")",
+      "Bash(.venv/bin/python /private/tmp/claude-501/-Users-rakhmonberdiev-Research-TurnDetecting/67bfcdcb-5539-4be0-a61c-ab3b56c6dd5c/scratchpad/verify_nb.py)",
+      "Bash(.venv/bin/python /private/tmp/claude-501/-Users-rakhmonberdiev-Research-TurnDetecting/67bfcdcb-5539-4be0-a61c-ab3b56c6dd5c/scratchpad/build_nb.py)",
+      "Bash(.venv/bin/python /private/tmp/claude-501/-Users-rakhmonberdiev-Research-TurnDetecting/67bfcdcb-5539-4be0-a61c-ab3b56c6dd5c/scratchpad/run_nb_cells.py)",
+      "Bash(.venv/bin/python uz_dataset/generate_uz_eou_dataset.py --n-total 16000)",
+      "Bash(.venv/bin/python -c \"import sys; sys.path.insert\\(0,'/Users/rakhmonberdiev/Research/TurnDetecting'\\); import uz_number_gate; print\\('import OK'\\)\")",
+      "Bash(.venv/bin/python -m py_compile /Users/rakhmonberdiev/Research/TurnDetecting/uz_number_gate.py)",
+      "Bash(.venv/bin/python -c \"import uz_number_gate; print\\('cwd import OK'\\)\")",
+      "Bash(.venv/bin/python /Users/rakhmonberdiev/Research/TurnDetecting/uz_dataset/generate_uz_eou_dataset.py --n-total 16000)",
+      "Bash(.venv/bin/python /private/tmp/claude-501/-Users-rakhmonberdiev-Research-TurnDetecting/67bfcdcb-5539-4be0-a61c-ab3b56c6dd5c/scratchpad/xcheck2.py)",
+      "Bash(.venv/bin/python /private/tmp/claude-501/-Users-rakhmonberdiev-Research-TurnDetecting/67bfcdcb-5539-4be0-a61c-ab3b56c6dd5c/scratchpad/check_last4.py)",
+      "Bash(.venv/bin/python /Users/rakhmonberdiev/Research/TurnDetecting/uz_dataset/generate_uz_eou_dataset.py --n-total 18000)",
+      "Bash(.venv/bin/python /private/tmp/claude-501/-Users-rakhmonberdiev-Research-TurnDetecting/67bfcdcb-5539-4be0-a61c-ab3b56c6dd5c/scratchpad/count_label.py)",
+      "Bash(.venv/bin/python /private/tmp/claude-501/-Users-rakhmonberdiev-Research-TurnDetecting/67bfcdcb-5539-4be0-a61c-ab3b56c6dd5c/scratchpad/namo_pipe.py)"
+    ]
+  }
+}

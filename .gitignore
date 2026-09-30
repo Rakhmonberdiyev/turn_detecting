@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Model checkpoints (too large for GitHub)
+uz_eou_full/
+uz_eou_lora/
+*.safetensors
+*.pt
+*.bin
+
+# OS
+.DS_Store
